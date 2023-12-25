@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <Button
+            android:text="Back"
+            android:layout_width="110dp"
+            android:layout_height="48dp" android:id="@+id/btn_favorBack"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.956" app:layout_constraintVertical_bias="0.976"/>
+    <EditText
+            android:layout_width="223dp"
+            android:layout_height="57dp"
+            android:inputType="textPersonName"
+            android:text="Suggest"
+            android:hint="Suggest"
+            android:ems="10"
+            android:id="@+id/suggest_input2"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.936" app:layout_constraintVertical_bias="0.635"/>
+    <EditText
+            android:layout_width="223dp"
+            android:layout_height="57dp"
+            android:inputType="textPersonName"
+            android:text="Calories"
+            android:hint="Calories"
+            android:ems="10"
+            android:id="@+id/calories_input2"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.914" app:layout_constraintVertical_bias="0.52"/>
+    <EditText
+            android:layout_width="223dp"
+            android:layout_height="57dp"
+            android:inputType="textPersonName"
+            android:text="Recipe"
+            android:hint="Recipe"
+            android:ems="10"
+            android:id="@+id/recipe_input2"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.914" app:layout_constraintVertical_bias="0.406"/>
+    <TextView
+            android:text="Đề xuất"
+            android:hint="Name"
+            android:layout_width="102dp"
+            android:layout_height="50dp" android:id="@+id/f"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.051" app:layout_constraintVertical_bias="0.638"/>
+    <TextView
+            android:text="Calories"
+            android:layout_width="102dp"
+            android:layout_height="50dp" android:id="@+id/textView10"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.051" app:layout_constraintVertical_bias="0.525"/>
+    <TextView
+            android:text="Công thức"
+            android:layout_width="102dp"
+            android:layout_height="50dp" android:id="@+id/textView9"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.051" app:layout_constraintVertical_bias="0.412"/>
+    <TextView
+            android:text="Tên món ăn"
+            android:layout_width="102dp"
+            android:layout_height="50dp" android:id="@+id/textView8"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.051" app:layout_constraintVertical_bias="0.289"/>
+    <EditText
+            android:layout_width="223dp"
+            android:layout_height="57dp"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:hint="Name"
+            android:ems="10"
+            android:id="@+id/name_input2"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.914" app:layout_constraintVertical_bias="0.281"/>
+    <Button
+            android:text="Add"
+            android:layout_width="267dp"
+            android:layout_height="61dp" android:id="@+id/btn_set"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.771"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
